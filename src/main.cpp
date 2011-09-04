@@ -2179,7 +2179,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         }
         else if (fMissingInputs)
         {
-            pfrom->nShitSent++;
+            pfrom->nBadtxsent++;
             printf("got sent orphan tx %s from %s\n", inv.hash.ToString().substr(0,10).c_str(), pfrom->addr.ToString().c_str());
             AddOrphanTx(vMsg);
         }
@@ -2693,6 +2693,7 @@ unsigned int static ScanHash_CryptoPP(char* pmidstate, char* pdata, char* phash1
             return -1;
         }
     }
+
 }
 
 
