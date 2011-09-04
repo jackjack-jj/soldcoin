@@ -1,21 +1,11 @@
-SolidCoin 1.04
+SoldCoin 1.04
 
-Copyright (c) 2011 SolidCoin Developers
-
-All changes made by SolidCoin developers require express permission to be used
-in other projects, including original the Bitcoin project.
+Copyright (c) 2011 SoldCoin Developers
 
 This product includes software developed by the OpenSSL Project for use in
 the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
 cryptographic software written by Eric Young (eay@cryptsoft.com).
 
-
-Intro
------
-SolidCoin is a free open source peer-to-peer electronic cash system that is
-completely decentralized, without the need for a central server or trusted
-parties.  Users hold the crypto keys to their own money and transact directly
-with each other, with the help of a P2P network to check for double-spending.
 
 
 Setup
